@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-container {
+    max-width: 48%;
+    text-align: left;
+    margin-right: 20px; 
+}
+
+.container {
+    max-width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+
+
+.Left-image {
+    max-width: 100%;
+    height: 460px; 
+    border-radius: 10px; 
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1 {
+    color: #125688;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+h1.instagram-text {
+    font-family: 'Tulpen One', cursive;
+    font-size:50px ;
+}
+
+.social-login {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.facebook-login {
+    display: inline-block;
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.facebook-login:hover {
+    background-color: #1665c1;
+}
+
+.divider {
+    margin: 10px 0;
+}
+
+.or {
+    display: flex;
+    align-items: center; 
+    color: #999;
+}
+
+.or:before, .or:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #fefafa;
+    margin: auto;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0c8fec;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0e4477;
+}
+
+.forgot-password-container {
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+
+.forgot-password {
+    font-size: 14px;
+    color: #035fa1;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signup-link {
+    color: #0592f6;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
